@@ -208,7 +208,7 @@ export default function KombuHome({
                   <div className="flex items-center justify-between pt-2">
                     <div>
                       <div className="text-[11px] text-[#7A6D63]">Single Bottle (12 fl oz)</div>
-                      <div className="text-base font-bold text-[#231710]">$4.50</div>
+                      <div className="text-base font-bold text-[#231710]">₹4.50</div>
                     </div>
 
                     <button
@@ -526,7 +526,7 @@ export default function KombuHome({
             Brewed with organic botanicals & living devotion in small batches.
           </p>
           <div className="text-[11px] text-[#9A8F85] pt-1">
-            © 2025 Kombu Alchemy Co. All rights reserved.
+            © 2026 Kombu Alchemy Co. All rights reserved.
           </div>
         </footer>
 

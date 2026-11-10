@@ -261,11 +261,11 @@ export default function KombuDetail({
 
                         <div className="flex items-baseline gap-1.5">
                           <span className="text-base font-bold text-[#231710]">
-                            ${pack.price.toFixed(2)}
+                            ₹{pack.price.toFixed(2)}
                           </span>
                           {pack.originalPrice && (
                             <span className="text-xs text-[#9E9085] line-through">
-                              ${pack.originalPrice.toFixed(2)}
+                              ₹{pack.originalPrice.toFixed(2)}
                             </span>
                           )}
                         </div>
@@ -488,7 +488,7 @@ export default function KombuDetail({
               <span>Add to Cellar Reserve</span>
             </div>
             <span className="font-bold">
-              ${(selectedPack.price * quantity).toFixed(2)}
+              ₹{(selectedPack.price * quantity).toFixed(2)}
             </span>
           </button>
         </div>

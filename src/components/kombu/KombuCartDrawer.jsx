@@ -84,7 +84,7 @@ export default function KombuCartDrawer({
               <Truck className="w-4 h-4 text-[#2E6837]" />
               {isFreeShipping 
                 ? 'Free Cold-Chain Freight unlocked!' 
-                : `$${remainingForFreeShipping.toFixed(2)} away from Free Cold Freight`}
+                : `₹${remainingForFreeShipping.toFixed(2)} away from Free Cold Freight`}
             </span>
             <span className="font-bold">{isFreeShipping ? '100%' : `${Math.round((subtotal / freeShippingThreshold) * 100)}%`}</span>
           </div>
@@ -199,7 +199,7 @@ export default function KombuCartDrawer({
                     </div>
 
                     <div className="text-xs font-bold text-[#231710]">
-                      ${(item.price * item.quantity).toFixed(2)}
+                      ₹{(item.price * item.quantity).toFixed(2)}
                     </div>
                   </div>
                 </div>
@@ -232,21 +232,21 @@ export default function KombuCartDrawer({
             <div className="space-y-1.5 text-xs text-[#6F6157] pt-1">
               <div className="flex justify-between">
                 <span>Subtotal</span>
-                <span className="font-semibold text-[#231710]">${subtotal.toFixed(2)}</span>
+                <span className="font-semibold text-[#231710]">₹{subtotal.toFixed(2)}</span>
               </div>
               {discountPercent > 0 && (
                 <div className="flex justify-between text-[#246A31]">
                   <span>Tribe Discount (15%)</span>
-                  <span>-${discountAmount.toFixed(2)}</span>
+                  <span>-₹{discountAmount.toFixed(2)}</span>
                 </div>
               )}
               <div className="flex justify-between">
                 <span>Refrigerated Freight</span>
-                <span>{shipping === 0 ? <strong className="text-[#246A31]">FREE</strong> : `$${shipping.toFixed(2)}`}</span>
+                <span>{shipping === 0 ? <strong className="text-[#246A31]">FREE</strong> : `₹${shipping.toFixed(2)}`}</span>
               </div>
               <div className="flex justify-between text-sm font-bold text-[#231710] pt-1 border-t border-[#F0EBE2]">
                 <span>Estimated Total</span>
-                <span>${total.toFixed(2)}</span>
+                <span>₹{total.toFixed(2)}</span>
               </div>
             </div>
 

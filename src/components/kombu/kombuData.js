@@ -48,7 +48,7 @@ export const KOMBU_FLAVORS = [
         price: 42.00,
         originalPrice: 54.00,
         perks: 'Pause, shift, or cancel anytime with zero friction',
-        unitPrice: '$3.50 / bottle',
+        unitPrice: '₹3.50 / bottle',
         type: 'subscription'
       },
       {
@@ -59,7 +59,7 @@ export const KOMBU_FLAVORS = [
         price: 24.00,
         originalPrice: 27.00,
         perks: 'Ships in 100% recyclable insulated cold pack',
-        unitPrice: '$4.00 / bottle',
+        unitPrice: '₹4.00 / bottle',
         type: 'one-time'
       },
       {
@@ -69,7 +69,7 @@ export const KOMBU_FLAVORS = [
         price: 4.50,
         originalPrice: null,
         perks: 'Freshly tapped cellar reserve allotment',
-        unitPrice: '$4.50 / bottle',
+        unitPrice: '₹4.50 / bottle',
         type: 'one-time'
       }
     ],
@@ -171,7 +171,7 @@ export const KOMBU_FLAVORS = [
         price: 42.00,
         originalPrice: 54.00,
         perks: 'Pause, shift, or cancel anytime with zero friction',
-        unitPrice: '$3.50 / bottle',
+        unitPrice: '₹3.50 / bottle',
         type: 'subscription'
       },
       {
@@ -182,7 +182,7 @@ export const KOMBU_FLAVORS = [
         price: 24.00,
         originalPrice: 27.00,
         perks: 'Ships in 100% recyclable insulated cold pack',
-        unitPrice: '$4.00 / bottle',
+        unitPrice: '₹4.00 / bottle',
         type: 'one-time'
       },
       {
@@ -192,7 +192,7 @@ export const KOMBU_FLAVORS = [
         price: 4.50,
         originalPrice: null,
         perks: 'Freshly tapped cellar reserve allotment',
-        unitPrice: '$4.50 / bottle',
+        unitPrice: '₹4.50 / bottle',
         type: 'one-time'
       }
     ],
@@ -294,7 +294,7 @@ export const KOMBU_FLAVORS = [
         price: 42.00,
         originalPrice: 54.00,
         perks: 'Pause, shift, or cancel anytime with zero friction',
-        unitPrice: '$3.50 / bottle',
+        unitPrice: '₹3.50 / bottle',
         type: 'subscription'
       },
       {
@@ -305,7 +305,7 @@ export const KOMBU_FLAVORS = [
         price: 24.00,
         originalPrice: 27.00,
         perks: 'Ships in 100% recyclable insulated cold pack',
-        unitPrice: '$4.00 / bottle',
+        unitPrice: '₹4.00 / bottle',
         type: 'one-time'
       },
       {
@@ -315,7 +315,7 @@ export const KOMBU_FLAVORS = [
         price: 4.50,
         originalPrice: null,
         perks: 'Freshly tapped cellar reserve allotment',
-        unitPrice: '$4.50 / bottle',
+        unitPrice: '₹4.50 / bottle',
         type: 'one-time'
       }
     ],
@@ -417,7 +417,7 @@ export const KOMBU_FLAVORS = [
         price: 42.00,
         originalPrice: 54.00,
         perks: 'Pause, shift, or cancel anytime with zero friction',
-        unitPrice: '$3.50 / bottle',
+        unitPrice: '₹3.50 / bottle',
         type: 'subscription'
       },
       {
@@ -428,7 +428,7 @@ export const KOMBU_FLAVORS = [
         price: 24.00,
         originalPrice: 27.00,
         perks: 'Ships in 100% recyclable insulated cold pack',
-        unitPrice: '$4.00 / bottle',
+        unitPrice: '₹4.00 / bottle',
         type: 'one-time'
       },
       {
@@ -438,7 +438,7 @@ export const KOMBU_FLAVORS = [
         price: 4.50,
         originalPrice: null,
         perks: 'Freshly tapped cellar reserve allotment',
-        unitPrice: '$4.50 / bottle',
+        unitPrice: '₹4.50 / bottle',
         type: 'one-time'
       }
     ],
